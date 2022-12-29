@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "BeVietnamPro";
+    src: url(./Fonts/BeVietnamPro-Medium.ttf);
+  }
+  img {
+    width: 100%;
+  }
+  .section {
+    @apply container mx-auto py-[8rem]  px-6;
+  }
+}
